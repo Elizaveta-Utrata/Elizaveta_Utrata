@@ -1,0 +1,27 @@
+body{
+    max-width:800px; 
+    margin:50px auto 50px auto;
+}
+.rez{
+    text-align: right;
+}    
+h3{
+    font-family: 'Bad Script', cursive;
+    text-decoration: underline;
+    text-indent: 30px;
+}
+.fon_01{
+    font-family: 'Bad Script', cursive;
+    font-size: 16px;
+    text-indent: 30px;
+}
+.fon_02{
+    font-family: 'Bad Script', cursive;
+    font-size: 16px;
+    text-indent: 30px;
+}
+.fon_03{
+    font-family: 'Bad Script', cursive;
+    font-size: 16px;
+    text-indent: 30px;
+}
