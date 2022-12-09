@@ -1,0 +1,18 @@
+.box{
+    background-color: black;
+    color: green;
+    width: 400px;
+    height: 73px;
+    overflow: auto;
+}
+.spis{
+    list-style-type: upper-roman;
+    width: 350px;
+}
+.li_01{
+    list-style-type: lower-roman;
+}
+.li_02{
+    list-style-type: lower-roman;
+}
+
