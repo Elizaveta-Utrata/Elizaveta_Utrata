@@ -1,33 +1,35 @@
 .wlap{
-    background-color: #c23d6e;
+    background-color:  #c23d6e;
 }
 .b1{
     width: 15em;
-    height: 37em;
     background-color: #866e9d;
     float: left;
 }
 .b2{
-    width: auto;
-    height: auto;
+    width: 100%;
     background-color: #c23d6e;
-    margin-bottom: 2em; 
+    margin-bottom: 0.2em; 
     float: none;
 }
 .imgg{
     float: right;
     width: 115px;
+    margin: 5px;
 }
-
 .b3{
-    width: auto;
-    background-color: #7e6f76;
+    background-color: rgb(203, 40, 31);
     clear: both;
-    height: 30px;
+    margin-top: -14px;
 }
 .clear{
-    /*background-color: black;
-    height: 10px;*/
+    /*background-color: black;*/
+    height: 10px;
     clear: both;
+}
+.blok{
+     background-color: #f3f0f0;
+     height: 3px;
+     clear: none;
 }
 
