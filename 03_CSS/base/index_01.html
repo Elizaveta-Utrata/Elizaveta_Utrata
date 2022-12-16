@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <style>
+        
+        div.n1{
+            width: 100px;
+        }
+        div.n1 > div { 
+            background-color: #ff009d; 
+            border: solid #ffff00 1px; 
+            position: relative; 
+            cursor: pointer;
+        }
+        div.n2 { 
+            width: 150px; 
+            display: none; 
+        }
+        div.n2 > div { 
+            background-color: cyan; 
+            border: solid #070707 1px; 
+            cursor: pointer; 
+        }
+        div.n1 > div:hover div.n2 { 
+            display: block; 
+            position: absolute; left: 80%; top: 90%; z-index: 1; 
+        }
+
+    </style>
+</head>
+<body>
+    <div class="n1">
+        <div>Понедельник</div>
+        <div>Вторник</div>
+        <div >
+            Среда
+            <div class="n2">
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>  
+            </div>
+        </div>
+        <div>Четверг</div>
+        <div>Пятница</div>
+        <div>Суббота</div>
+    </div>
+</body>
+</html>
